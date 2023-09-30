@@ -1,0 +1,189 @@
+#productsForSale > div
+{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #EEEEFF;
+	transition: background-color 0.3s;
+	position: relative;
+	vertical-align: top;
+}
+#productsForSale > div:hover
+{
+	background-color: #DDDDFF;
+}
+
+/* Product Price */
+#productsForSale > div > .productPrice
+{
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
+#productsForSale > div > .productPrice > div
+{
+	display: inline-block;
+}
+#productsForSale > div > .productPrice > div:first-child
+{
+	font-size: 18pt;
+}
+
+/* Product name */
+#productsForSale > div > .productName
+{
+	display: block;
+	text-align: center;
+	font-size: 16pt;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+/* Product description */
+#productsForSale > div > .productDescription
+{
+	display: block;
+	text-align: left;
+	border-top: 1px solid gray;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+/* Buy now button */
+#productsForSale > div > input[type=button]
+{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+
+
+/* Product hash */
+#productsForSale > div > .productHash
+{
+	display: none;
+}
+
+/* Product seller address */
+#productsForSale > div > .productSellerAddress
+{
+	font-size: 9pt;
+}
+
+.productLabelSeller
+{
+	display: inline-block;
+}
+.productSellerRating
+{
+	display: inline-block;
+	margin-left: 15px;
+}
+
+/* Buttons */
+input[type=button], input[type=submit]
+{
+	background: transparent;
+	font-size: 18pt;
+	color: blue;
+	border: 0;
+}
+input[type=button]:hover, input[type=submit]:hover
+{
+	cursor: pointer;
+	color: red;
+}
+
+nav
+{
+	width: 100%;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #EEEEFF;
+}
+nav a
+{
+	text-decoration: none;
+	color: blue;
+	margin-right: 10px;
+	font-size: 18pt;
+}
+nav a:hover
+{
+	color: red;
+}
+body
+{
+	padding-top: 45px;
+}
+.addNewProductForm
+{
+	background-color: #EEEEFF;
+	display: inline-block;
+	padding: 15px;
+}
+#yourOrdersPage > table
+{
+	background-color: #EEEEFF;
+	padding: 10px;
+}
+#yourOrdersPage > table th
+{
+	padding: 5px;
+}
+#balancesPage > table
+{
+	background-color: #EEEEFF;
+	padding: 10px;
+}
+#labelNoDisputesAvailable, #currentArbitration
+{
+	background-color: #EEEEFF;
+	padding: 10px;
+}
+#sellerPage > table
+{
+	background-color: #EEEEFF;
+	padding: 10px;
+}
+.review
+{
+	background-color: #EEEEFF;
+	padding: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.review > div:nth-child(1)
+{
+	font-size: 9pt;
+}
+.review > div:nth-child(2)
+{
+	font-weight: bold;
+}
+.review > div:nth-child(3)
+{
+	margin-top: 10px;
+	position: relative;
+	display: inline-block;
+}
+.review > div:nth-child(3):before
+{
+	content: '"';
+	position: absolute;
+	top: 0px;
+	left: -7px;
+}
+.review > div:nth-child(3):after
+{
+	content: '"';
+	position: absolute;
+	bottom: 0px;
+	right: -10px;
+}
